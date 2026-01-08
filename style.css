@@ -270,3 +270,36 @@ nav .menu ul{
     margin-right: ;
 }
 
+
+/* early access section */
+#e-access {
+    width: 85%;
+    max-width: 1360px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+#e-access * { 
+    text-align: center;
+}
+
+#e-access .content {
+    margin: 0 0 24px 0;
+}
+
+#e-access .content h2 {
+    font-size: 40px;
+}
+
+#e-access p {
+    margin-top: 16px;
+    color: rgba(98, 115, 130, 1);
+}
+
+#e-access .btn-content button:hover img {
+    background-color: #469165;
+    border-radius: 50%;
+    margin-left: 5px;
+
+}
+
