@@ -88,23 +88,23 @@ nav .menu ul{
 
 
 /* hero section */
-.hero-container {
-    background: url(./Resource/assets/hero-bg.png);
+#hero-container {
+    background: url(./Resource/assets/hero-bg.png), no-repeat;
     padding: 115px 0 180px 0;
 }
 
-.hero-container .hero-content {
+#hero-container .hero-content {
     width: 85%;
     max-width: 1360px;
     margin: auto;
 }
 
-.hero-container .hero-content * {
+#hero-container .hero-content * {
     margin: auto;
     text-align: center;
 }
 
-.hero-container .hero-content #hero-top {
+#hero-container .hero-content #hero-top {
     display: flex;
     gap: 6px;
     padding: 8px;
@@ -113,29 +113,29 @@ nav .menu ul{
     color: rgba(70, 145, 101, 1);
 }
 
-.hero-container .hero-content #hero-top:hover {
+#hero-container .hero-content #hero-top:hover {
     border: 2px solid rgba(70, 145, 101, 1);
 }
 
-.hero-container .hero-content h2 {
+#hero-container .hero-content h2 {
     margin: 16px 0;
     color: #fff;
     font-size: 72px;
     font-weight: 700;
 }
 
-.hero-container .hero-content h2 span {
+#hero-container .hero-content h2 span {
     color: rgba(48, 184, 104, 1);
 }
 
-.hero-container .hero-content p {
+#hero-container .hero-content p {
     line-height: 24px;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 32px;
     font-size: 18px;
 }
 
-.hero-container .hero-content .hero-btns {
+#hero-container .hero-content .hero-btns {
     display: flex;
     gap: 16px;
     width: 34%;
@@ -143,17 +143,17 @@ nav .menu ul{
     font-weight: 600;
 }
 
-.hero-container .hero-content .hero-btns #btn-left:hover img {
+#hero-container .hero-content .hero-btns #btn-left:hover img {
     background-color: #469165;
     border-radius: 50%;
     margin-left: 5px;
 }
 
-.hero-container .hero-content .hero-btns #btn-left img {
+#hero-container .hero-content .hero-btns #btn-left img {
     margin-left: 10px;
 }
 
-.hero-container .hero-content .hero-btns #btn-right {
+#hero-container .hero-content .hero-btns #btn-right {
     background: none;
     color: #fff;
     border: 1px solid #fff;
@@ -161,11 +161,11 @@ nav .menu ul{
     border-radius: 4px;
 }
 
-.hero-container .hero-content .hero-btns #btn-right i {
+#hero-container .hero-content .hero-btns #btn-right i {
     margin-right: 10px;
 }
 
-.hero-container .hero-content .hero-btns #btn-right:hover {
+#hero-container .hero-content .hero-btns #btn-right:hover {
     background-color: #469165;
     /* box-shadow: 5px 5px 5px #fff; */
 }
@@ -302,4 +302,49 @@ nav .menu ul{
     margin-left: 5px;
 
 }
+
+
+
+/* footer section */
+footer {
+    background-color: rgba(0, 25, 49, 1);
+}
+
+#footer-container {
+    width: 85%;
+    max-width: 1360px;
+    padding: 120px 0 0 0;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+#footer-container .top-footer {
+    margin: 120px 0 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-container .top-footer .social-links {
+   margin-right: 128px;
+
+}
+
+#footer-container .top-footer .social-links .all-icons {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+#footer-container .top-footer .social-links .all-icons .icon{
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+
+#footer-container .bottom-footer {
+    color: rgba(250, 250, 250, 1);
+    text-align: center;
+    padding: 30px 0; 
+    border-top: 1px solid rgba(229, 231, 235, 1);
+} 
 
