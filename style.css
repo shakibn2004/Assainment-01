@@ -48,7 +48,7 @@ nav .menu ul{
 
 
 
-/* hero button online symbol */
+/* hero button online symbol  styling*/
 .online {
     width: 16px;
     height: 16px;
@@ -83,7 +83,7 @@ nav .menu ul{
     top: 5px;
     left: 5px;
 }
-/* hero button online symbol */
+/* hero button online symbol  styling*/
 
 
 
@@ -169,3 +169,104 @@ nav .menu ul{
     background-color: #469165;
     /* box-shadow: 5px 5px 5px #fff; */
 }
+
+
+
+/* notes section */
+#notes {
+    width: 85%;
+    max-width: 1360px;
+    margin: auto;
+}
+
+#notes .note-content {
+    text-align: center;
+    padding-top: 68px;
+}
+
+#notes .note-content h2 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+#notes .note-content p {
+    line-height: 20px;
+    color: rgba(98, 115, 130, 1);
+}
+
+#notes .note-cards {
+    display: flex;
+    gap: 24px;
+}
+
+#notes .note-card .card {
+
+}
+
+#notes .note-cards .card .img {
+    background: rgba(249, 85, 85, 1);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 70px auto 16px auto;
+    display: flex;
+
+    
+
+}
+
+#notes .note-cards .card .img img {
+    display: block;
+    margin: auto;
+}
+
+#notes .note-cards .card .card-content {
+    text-align: center;
+}
+
+#notes .note-cards .card .card-content p {
+    margin: 16px 0 20px 0;
+    color: rgba(98, 115, 130, 1);
+}
+
+
+/* second brain section */
+#brain {
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    gap: 60px;
+    margin: 120px auto;
+}
+
+#brain .brain-content {
+    margin: auto auto;
+}
+
+#brain .brain-content h2 {
+    margin: 16px 0;
+    font-size: 48px;
+}
+
+#brain .brain-content p {
+    line-height: 20px;
+    color: rgba(98, 115, 130, 1);
+    margin-bottom: 40px;
+}
+
+#brain .brain-content ul {
+    list-style-type: none;
+}
+
+#brain .brain-content ul li {
+    margin-bottom: 16px;
+    display: flex;
+    gap: 6px;
+
+}
+
+#brain .brain-content ul li img {
+    display: block;
+    margin-right: ;
+}
+
