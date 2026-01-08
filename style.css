@@ -1,1 +1,37 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* comomn css */
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.btn {
+    padding: 12.5px 16px;
+    background-color: #30B868;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+/* nav section */
+nav {
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+nav .menu ul{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
