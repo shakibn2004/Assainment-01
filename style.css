@@ -55,7 +55,7 @@ nav .menu ul{
     position: relative;
     
 }
-.hero-container .hero-content .online .r1 {
+#hero-container .hero-content .online .r1 {
     width: 16px;
     height: 16px;
     border-radius: 50%;
@@ -65,7 +65,7 @@ nav .menu ul{
     left: 0;
     
 }
-.hero-container .hero-content .online .r2 {
+#hero-container .hero-content .online .r2 {
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -74,7 +74,7 @@ nav .menu ul{
     top: 2px;
     left: 2px;
 }
-.hero-container .hero-content .online .r3 {
+#hero-container .hero-content .online .r3 {
     width: 6px;
     height: 6px;
     border-radius: 50%;
