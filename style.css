@@ -196,11 +196,15 @@ nav .menu ul{
 #notes .note-cards {
     display: flex;
     gap: 24px;
+    margin-top: 40px;
 }
 
-#notes .note-card .card {
-
+#notes .note-cards .card {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 24px;
+    border-radius: 8px;
 }
+
 
 #notes .note-cards .card .img {
     background: rgba(249, 85, 85, 1);
